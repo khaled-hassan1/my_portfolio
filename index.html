@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khaled Hassan Ghaly - Flutter Developer Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-primary" href="#home">Khaled Hassan Ghaly</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center min-vh-100 position-relative">
+        <div class="hero-bg"></div>
+        <div class="container text-center text-white position-relative">
+            <div class="hero-avatar mx-auto mb-4">
+                <span class="display-4 fw-bold">KHG</span>
+            </div>
+            <h1 class="display-2 fw-bold mb-3">Khaled Hassan Ghaly</h1>
+            <h2 class="display-6 text-light mb-4">Flutter Developer</h2>
+            <p class="lead mb-5 mx-auto" style="max-width: 800px;">
+                Crafting beautiful, high-performance mobile applications with 4+ years of Flutter expertise. 
+                Specialized in cross-platform development that delivers exceptional user experiences.
+            </p>
+            
+            <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center align-items-center mb-5">
+                <a href="#about" class="btn btn-light btn-lg px-4 py-3 rounded-pill fw-semibold">
+                    View My Work
+                </a>
+                <div class="d-flex gap-3">
+                    <a href="mailto:khaled@example.com" class="social-link">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                    <a href="https://github.com/khaledhassan" class="social-link">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/khaledhassan" class="social-link">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down">
+                <i class="bi bi-arrow-down fs-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">About Me</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+            </div>
+            
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6">
+                    <h3 class="h2 fw-bold mb-4">Passionate Flutter Developer from Egypt</h3>
+                    <p class="lead mb-4">
+                        With over 4 years of dedicated Flutter development experience, I specialize in creating 
+                        cross-platform mobile applications that combine beautiful design with robust functionality. 
+                        Based in Egypt, I've successfully delivered applications across various domains including 
+                        Islamic apps, productivity tools, transportation solutions, and entertainment platforms.
+                    </p>
+                    <p class="lead mb-4">
+                        My expertise spans the entire mobile development lifecycle, from concept and design to 
+                        deployment and maintenance. I'm passionate about writing clean, maintainable code and 
+                        staying up-to-date with the latest Flutter and Dart technologies.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-primary fs-6 px-3 py-2">Flutter</span>
+                        <span class="badge bg-primary fs-6 px-3 py-2">Dart</span>
+                        <span class="badge bg-primary fs-6 px-3 py-2">Firebase</span>
+                        <span class="badge bg-primary fs-6 px-3 py-2">SQLite</span>
+                        <span class="badge bg-primary fs-6 px-3 py-2">REST APIs</span>
+                        <span class="badge bg-primary fs-6 px-3 py-2">State Management</span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="stat-card text-center p-4 bg-white rounded-3 shadow-sm">
+                                <i class="bi bi-code-slash text-primary fs-1 mb-3"></i>
+                                <div class="display-6 fw-bold text-dark mb-2">4+</div>
+                                <div class="text-muted">Years Experience</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card text-center p-4 bg-white rounded-3 shadow-sm">
+                                <i class="bi bi-phone text-primary fs-1 mb-3"></i>
+                                <div class="display-6 fw-bold text-dark mb-2">10+</div>
+                                <div class="text-muted">Apps Published</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card text-center p-4 bg-white rounded-3 shadow-sm">
+                                <i class="bi bi-people text-primary fs-1 mb-3"></i>
+                                <div class="display-6 fw-bold text-dark mb-2">50K+</div>
+                                <div class="text-muted">Happy Users</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card text-center p-4 bg-white rounded-3 shadow-sm">
+                                <i class="bi bi-trophy text-primary fs-1 mb-3"></i>
+                                <div class="display-6 fw-bold text-dark mb-2">25+</div>
+                                <div class="text-muted">Projects Completed</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">Technical Skills</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+                <p class="lead">A comprehensive toolkit for building exceptional mobile applications</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 bg-light rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="skill-icon bg-primary text-white rounded-3 me-3">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Mobile Development</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Flutter</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Dart</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Android Studio</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> VS Code</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Cross-platform Development</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 bg-light rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="skill-icon bg-primary text-white rounded-3 me-3">
+                                <i class="bi bi-database"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Database & Storage</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> SQLite</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Firebase Firestore</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Shared Preferences</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Hive</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Local Storage</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 bg-light rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="skill-icon bg-primary text-white rounded-3 me-3">
+                                <i class="bi bi-cloud"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Backend & APIs</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Firebase</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> REST APIs</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> HTTP Requests</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> JSON Parsing</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Authentication</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 bg-light rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="skill-icon bg-primary text-white rounded-3 me-3">
+                                <i class="bi bi-gear"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">State Management</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Provider</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Bloc</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Riverpod</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> GetX</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> setState</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 bg-light rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="skill-icon bg-primary text-white rounded-3 me-3">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">UI/UX Design</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Material Design</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Custom Widgets</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Animations</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Responsive Design</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Theming</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 bg-light rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="skill-icon bg-primary text-white rounded-3 me-3">
+                                <i class="bi bi-tools"></i>
+                            </div>
+                            <h4 class="fw-bold mb-0">Tools & Deployment</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Git</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Google Play Console</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> App Store Connect</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> CI/CD</li>
+                            <li class="mb-2"><i class="bi bi-dot text-primary"></i> Testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">Featured Projects</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+                <p class="lead">A showcase of mobile applications I've built and published on Google Play Store</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="project-card bg-white rounded-3 shadow-sm h-100 overflow-hidden">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge bg-primary fs-6 px-3 py-2">Islamic App</span>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill text-warning me-1"></i>
+                                    <span class="text-muted">4.5+</span>
+                                </div>
+                            </div>
+                            
+                            <h3 class="h4 fw-bold mb-3">Quran Sound App</h3>
+                            <p class="text-muted mb-4">
+                                A comprehensive Quran application with audio recitations, multiple reciters, and beautiful Islamic design. 
+                                Features offline reading and high-quality audio streaming.
+                            </p>
+                            
+                            <div class="mb-4">
+                                <h5 class="fw-semibold mb-3">Key Features:</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Audio Recitations</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Offline Reading</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Multiple Reciters</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Bookmarks</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h6 class="fw-semibold mb-2">Technologies:</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark">Flutter</span>
+                                    <span class="badge bg-light text-dark">Dart</span>
+                                    <span class="badge bg-light text-dark">Audio Player</span>
+                                    <span class="badge bg-light text-dark">SQLite</span>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-download me-1"></i>
+                                    <small>1K+ Downloads</small>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.quran_2.quran_sound_2" 
+                                   target="_blank" class="btn btn-primary">
+                                    <i class="bi bi-play-fill me-2"></i>View on Play Store
+                                    <i class="bi bi-box-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="project-card bg-white rounded-3 shadow-sm h-100 overflow-hidden">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge bg-success fs-6 px-3 py-2">Transportation</span>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill text-warning me-1"></i>
+                                    <span class="text-muted">4.5+</span>
+                                </div>
+                            </div>
+                            
+                            <h3 class="h4 fw-bold mb-3">Samannud Transport</h3>
+                            <p class="text-muted mb-4">
+                                A local transportation app for Samannud city, connecting passengers with drivers. 
+                                Features real-time tracking and fare calculation.
+                            </p>
+                            
+                            <div class="mb-4">
+                                <h5 class="fw-semibold mb-3">Key Features:</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Real-time Tracking</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Fare Calculator</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Driver Matching</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Route Planning</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h6 class="fw-semibold mb-2">Technologies:</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark">Flutter</span>
+                                    <span class="badge bg-light text-dark">Firebase</span>
+                                    <span class="badge bg-light text-dark">Google Maps</span>
+                                    <span class="badge bg-light text-dark">Real-time DB</span>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-download me-1"></i>
+                                    <small>1K+ Downloads</small>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.transport.samannud_toktok" 
+                                   target="_blank" class="btn btn-primary">
+                                    <i class="bi bi-play-fill me-2"></i>View on Play Store
+                                    <i class="bi bi-box-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="project-card bg-white rounded-3 shadow-sm h-100 overflow-hidden">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge bg-info fs-6 px-3 py-2">Job Platform</span>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill text-warning me-1"></i>
+                                    <span class="text-muted">4.5+</span>
+                                </div>
+                            </div>
+                            
+                            <h3 class="h4 fw-bold mb-3">Yalla Shoghl</h3>
+                            <p class="text-muted mb-4">
+                                A job platform connecting job seekers with employers. Features job listings, 
+                                application management, and profile creation.
+                            </p>
+                            
+                            <div class="mb-4">
+                                <h5 class="fw-semibold mb-3">Key Features:</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Job Search</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Application Tracking</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Profile Management</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Notifications</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h6 class="fw-semibold mb-2">Technologies:</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark">Flutter</span>
+                                    <span class="badge bg-light text-dark">Firebase</span>
+                                    <span class="badge bg-light text-dark">Authentication</span>
+                                    <span class="badge bg-light text-dark">Firestore</span>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-download me-1"></i>
+                                    <small>1K+ Downloads</small>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.yallashoghl.app" 
+                                   target="_blank" class="btn btn-primary">
+                                    <i class="bi bi-play-fill me-2"></i>View on Play Store
+                                    <i class="bi bi-box-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="project-card bg-white rounded-3 shadow-sm h-100 overflow-hidden">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="badge bg-warning fs-6 px-3 py-2">Entertainment</span>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-star-fill text-warning me-1"></i>
+                                    <span class="text-muted">4.5+</span>
+                                </div>
+                            </div>
+                            
+                            <h3 class="h4 fw-bold mb-3">Anime Series Hub</h3>
+                            <p class="text-muted mb-4">
+                                Entertainment app for anime lovers with dubbed cartoon series. Features streaming, 
+                                favorites, and episode tracking.
+                            </p>
+                            
+                            <div class="mb-4">
+                                <h5 class="fw-semibold mb-3">Key Features:</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Video Streaming</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Episode Tracking</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Favorites</small>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-2">
+                                            <i class="bi bi-dot text-primary me-2"></i>
+                                            <small>Search & Filter</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h6 class="fw-semibold mb-2">Technologies:</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-dark">Flutter</span>
+                                    <span class="badge bg-light text-dark">Video Player</span>
+                                    <span class="badge bg-light text-dark">SQLite</span>
+                                    <span class="badge bg-light text-dark">HTTP</span>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center text-muted">
+                                    <i class="bi bi-download me-1"></i>
+                                    <small>1K+ Downloads</small>
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.anime.dubbed_cartoon_series_free" 
+                                   target="_blank" class="btn btn-primary">
+                                    <i class="bi bi-play-fill me-2"></i>View on Play Store
+                                    <i class="bi bi-box-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <p class="text-muted mb-4">Want to see more of my work or discuss a project?</p>
+                <a href="#contact" class="btn btn-primary btn-lg px-4 py-3">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-4">Let's Work Together</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+                <p class="lead">Ready to bring your mobile app idea to life? Let's discuss your project and create something amazing together.</p>
+            </div>
+            
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h3 class="h4 fw-bold mb-4">Get In Touch</h3>
+                    
+                    <div class="contact-info mb-5">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-primary text-white rounded-3 me-4">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-semibold mb-1">Email</h5>
+                                <p class="text-muted mb-0">khaled.hassan.dev@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-primary text-white rounded-3 me-4">
+                                <i class="bi bi-phone-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-semibold mb-1">Phone</h5>
+                                <p class="text-muted mb-0">+20 XXX XXX XXXX</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="contact-icon bg-primary text-white rounded-3 me-4">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-semibold mb-1">Location</h5>
+                                <p class="text-muted mb-0">Egypt</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h5 class="fw-semibold mb-3">Follow Me</h5>
+                        <div class="d-flex gap-3">
+                            <a href="https://github.com/khaledhassan" class="social-icon bg-light text-dark rounded-3">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/khaledhassan" class="social-icon bg-light text-dark rounded-3">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="availability-card p-4 bg-primary bg-opacity-10 rounded-3">
+                        <h5 class="fw-semibold mb-3">Available for:</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">• Flutter app development</li>
+                            <li class="mb-2">• Cross-platform mobile solutions</li>
+                            <li class="mb-2">• App maintenance and updates</li>
+                            <li class="mb-2">• Technical consulting</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label fw-semibold">Name *</label>
+                                <input type="text" class="form-control form-control-lg" id="name" name="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label fw-semibold">Email *</label>
+                                <input type="email" class="form-control form-control-lg" id="email" name="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label fw-semibold">Subject *</label>
+                                <input type="text" class="form-control form-control-lg" id="subject" name="subject" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label fw-semibold">Message *</label>
+                                <textarea class="form-control form-control-lg" id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg w-100 py-3">
+                                    <i class="bi bi-send-fill me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    <h4 class="fw-bold mb-3">Khaled Hassan Ghaly</h4>
+                    <p class="text-light mb-3">
+                        Flutter Developer passionate about creating beautiful, functional mobile applications 
+                        that make a difference in people's lives.
+                    </p>
+                    <p class="text-light">Based in Egypt • Available worldwide</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h5 class="fw-semibold mb-3">Services</h5>
+                    <ul class="list-unstyled text-light">
+                        <li class="mb-2">Flutter App Development</li>
+                        <li class="mb-2">Cross-platform Solutions</li>
+                        <li class="mb-2">UI/UX Design</li>
+                        <li class="mb-2">App Maintenance</li>
+                        <li class="mb-2">Technical Consulting</li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4">
+                    <h5 class="fw-semibold mb-3">Specializations</h5>
+                    <ul class="list-unstyled text-light">
+                        <li class="mb-2">Islamic Applications</li>
+                        <li class="mb-2">E-commerce Apps</li>
+                        <li class="mb-2">Transportation Solutions</li>
+                        <li class="mb-2">Educational Platforms</li>
+                        <li class="mb-2">Entertainment Apps</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="border-secondary">
+            
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-4">
+                <div class="d-flex align-items-center text-light mb-3 mb-md-0">
+                    <span>Made with</span>
+                    <i class="bi bi-heart-fill text-danger mx-2"></i>
+                    <span>and</span>
+                    <i class="bi bi-code-slash text-primary mx-2"></i>
+                    <span>by Khaled Hassan Ghaly</span>
+                </div>
+                <div class="text-light">
+                    © <span id="currentYear"></span> All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
